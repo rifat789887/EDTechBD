@@ -1,0 +1,40 @@
+baseURL = "http://localhost:1313/"
+title = "My Blog"
+theme = "PaperMod"
+enableRobotsTXT = true
+paginate = 10
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+minify = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+env = "production"
+description = "Fast bilingual blog (English + বাংলা)."
+ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+
+[params.author]
+name = "Rifat"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    contentDir = "content/en"
+    weight = 1
+
+  [languages.bn]
+    languageName = "বাংলা"
+    languageCode = "bn-BD"
+    contentDir = "content/bn"
+    weight = 2
+    hasCJKLanguage = true
+
+
