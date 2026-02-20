@@ -39,4 +39,39 @@ name = "Rifat"
     weight = 2
     hasCJKLanguage = true
 
+[languages.en.menu]
+  [[languages.en.menu.main]]
+  name = "Home"
+  url = "/en/"
+  weight = 1
+  [[languages.en.menu.main]]
+  name = "Posts"
+  url = "/en/posts/"
+  weight = 2
+  [[languages.en.menu.main]]
+  name = "Search"
+  url = "/en/search/"
+  weight = 3
 
+[languages.bn.menu]
+  [[languages.bn.menu.main]]
+  name = "হোম"
+  url = "/bn/"
+  weight = 1
+  [[languages.bn.menu.main]]
+  name = "পোস্ট"
+  url = "/bn/posts/"
+  weight = 2
+
+  enableRobotsTXT = true
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
+
+
+  [[languages.bn.menu.main]]
+  name = "সার্চ"
+  url = "/bn/search/"
+  weight = 3
