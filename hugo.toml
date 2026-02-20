@@ -2,7 +2,9 @@ baseURL = "http://localhost:1313/"
 title = "My Blog"
 theme = "PaperMod"
 enableRobotsTXT = true
-paginate = 10
+pagination:
+  pagerSize: 10
+
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
