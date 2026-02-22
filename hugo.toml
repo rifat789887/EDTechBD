@@ -14,13 +14,14 @@ minify = true
 home = ["HTML", "RSS", "JSON"]
 
 [params]
-env = "production"
-description = "Fast bilingual blog (English + বাংলা)."
-ShowBreadCrumbs = true
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowCodeCopyButtons = true
+  env = "production"
+  description = "Bangla & English SEO-friendly blog about education, tech, and learning."
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
 
 [params.author]
 name = "Rifat"
