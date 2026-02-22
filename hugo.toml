@@ -1,4 +1,4 @@
-baseURL = "blog.grihopathshala.com"
+baseURL = "https://edtechbd.pages.dev/"
 title = "Grihopathshala Blogs"
 theme = "PaperMod"
 enableRobotsTXT = true
